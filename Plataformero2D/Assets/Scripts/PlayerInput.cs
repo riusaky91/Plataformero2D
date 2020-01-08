@@ -4,8 +4,8 @@
 
 using UnityEngine;
 
-//We first ensure this script runs before all other player scripts to prevent laggy
-//inputs
+//Para prevenir lagg se realiza este comando el cual ejecuta este script antes de los demas
+
 [DefaultExecutionOrder(-100)]
 public class PlayerInput : MonoBehaviour
 {
