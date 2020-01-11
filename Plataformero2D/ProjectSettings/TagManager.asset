@@ -38,15 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Fondo
+    uniqueID: 2756788271
+    locked: 0
+  - name: Fondo 2
+    uniqueID: 3920106885
+    locked: 0
+  - name: Detalles Fondo
+    uniqueID: 3965113167
     locked: 0
   - name: Plataformas
     uniqueID: 1742679569
     locked: 0
-  - name: Fondo
-    uniqueID: 2756788271
-    locked: 0
   - name: Primer Plano
     uniqueID: 2931149141
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
