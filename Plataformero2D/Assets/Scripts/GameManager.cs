@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 
 	List<Orb> orbs;								//The collection of scene orbs
 	Door lockedDoor;							//The scene door
-	//SceneFader sceneFader;						//The scene fader
+	SceneFader sceneFader;						//The scene fader
 
 	int numberOfDeaths;							//Number of times player has died
 	float totalGameTime;						//Length of the total game time
@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
 
 		//Update the total game time and tell the UI Manager to update
 		totalGameTime += Time.deltaTime;
-		//UIManager.UpdateTimeUI(totalGameTime);
+		UIManager.UpdateTimeUI(totalGameTime);
 	}
 
 	public static bool IsGameOver()
@@ -65,17 +65,17 @@ public class GameManager : MonoBehaviour
 		return current.isGameOver;
 	}
 
-	//public static void RegisterSceneFader(SceneFader fader)
-	//{
-	//	//If there is no current Game Manager, exit
-	//	if (current == null)
-	//		return;
+    public static void RegisterSceneFader(SceneFader fader)
+    {
+        //If there is no current Game Manager, exit
+        if (current == null)
+            return;
 
-	//	//Record the scene fader reference
-	//	current.sceneFader = fader;
-	//}
+        //Record the scene fader reference
+        current.sceneFader = fader;
+    }
 
-	public static void RegisterDoor(Door door)
+    public static void RegisterDoor(Door door)
 	{
 		//If there is no current Game Manager, exit
 		if (current == null)
@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour
 			current.orbs.Add(orb);
 
 		//Tell the UIManager to update the orb text
-		//UIManager.UpdateOrbUI(current.orbs.Count);
+		UIManager.UpdateOrbUI(current.orbs.Count);
 	}
 
 	public static void PlayerGrabbedOrb(Orb orb)
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
 			current.lockedDoor.Open();
 
 		//Tell the UIManager to update the orb text
-		//UIManager.UpdateOrbUI(current.orbs.Count);
+		UIManager.UpdateOrbUI(current.orbs.Count);
 	}
 
 	public static void PlayerDead()
@@ -128,11 +128,11 @@ public class GameManager : MonoBehaviour
 
 		//Increment the number of player deaths and tell the UIManager
 		current.numberOfDeaths++;
-		//UIManager.UpdateDeathUI(current.numberOfDeaths);
+		UIManager.UpdateDeathUI(current.numberOfDeaths);
 
-		//If we have a scene fader, tell it to fade the scene out
-		//if(current.sceneFader != null)
-		//	current.sceneFader.FadeSceneOut();
+		//if we have a scene fader, tell it to fade the scene out
+		if(current.sceneFader != null)
+			current.sceneFader.FadeSceneOut();
 
 		//Invoke the RestartScene() method after a delay
 		current.Invoke("RestartScene", current.deathSequenceDuration);
@@ -149,7 +149,7 @@ public class GameManager : MonoBehaviour
 
 		//Tell UI Manager to show the game over text and tell the Audio Manager to play
 		//game over audio
-		//UIManager.DisplayGameOverText();
+		UIManager.DisplayGameOverText();
 		//AudioManager.PlayWonAudio();
 	}
 
