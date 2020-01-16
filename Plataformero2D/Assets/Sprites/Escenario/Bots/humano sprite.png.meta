@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 596ddf668e9bc3a4badd79743fe29ba6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: humano sprite_0
+    21300002: humano sprite_1
+    21300004: humano sprite_2
+    21300006: humano sprite_3
+    21300008: humano sprite_4
+    21300010: humano sprite_5
+    21300012: humano sprite_6
+    21300014: humano sprite_7
+    21300016: humano sprite_8
+    21300018: humano sprite_9
+    21300020: humano sprite_10
+    21300022: humano sprite_11
+    21300024: humano sprite_12
+    21300026: humano sprite_13
+    21300028: humano sprite_14
+    21300030: humano sprite_15
+    21300032: humano sprite_16
+    21300034: humano sprite_17
+    21300036: humano sprite_18
+    21300038: humano sprite_19
+    21300040: humano sprite_20
+    21300042: humano sprite_21
+    21300044: humano sprite_22
+    21300046: humano sprite_23
+    21300048: humano sprite_24
+    21300050: humano sprite_25
+    21300052: humano sprite_26
+    21300054: humano sprite_27
+    21300056: humano sprite_28
+    21300058: humano sprite_29
+    21300060: humano sprite_30
+    21300062: humano sprite_31
+    21300064: humano sprite_32
+    21300066: humano sprite_33
+    21300068: humano sprite_34
+    21300070: humano sprite_35
+    21300072: humano sprite_36
+    21300074: humano sprite_37
+    21300076: humano sprite_38
+    21300078: humano sprite_39
+    21300080: humano sprite_40
+    21300082: humano sprite_41
+    21300084: humano sprite_42
+    21300086: humano sprite_43
+    21300088: humano sprite_44
+    21300090: humano sprite_45
+    21300092: humano sprite_46
+    21300094: humano sprite_47
+    21300096: humano sprite_48
+    21300098: humano sprite_49
+    21300100: humano sprite_50
+    21300102: humano sprite_51
+    21300104: humano sprite_52
+    21300106: humano sprite_53
+    21300108: humano sprite_54
+    21300110: humano sprite_55
+    21300112: humano sprite_56
+    21300114: humano sprite_57
+    21300116: humano sprite_58
+    21300118: humano sprite_59
+    21300120: humano sprite_60
+    21300122: humano sprite_61
+    21300124: humano sprite_62
+    21300126: humano sprite_63
+    21300128: humano sprite_64
+    21300130: humano sprite_65
+    21300132: humano sprite_66
+    21300134: humano sprite_67
+    21300136: humano sprite_68
+    21300138: humano sprite_69
+    21300140: humano sprite_70
+    21300142: humano sprite_71
+    21300144: humano sprite_72
+    21300146: humano sprite_73
+    21300148: humano sprite_74
+    21300150: humano sprite_75
+    21300152: humano sprite_76
+    21300154: humano sprite_77
+    21300156: humano sprite_78
+    21300158: humano sprite_79
+    21300160: humano sprite_80
+    21300162: humano sprite_81
+    21300164: humano sprite_82
+    21300166: humano sprite_83
+    21300168: humano sprite_84
+    21300170: humano sprite_85
+    21300172: humano sprite_86
+    21300174: humano sprite_87
+    21300176: humano sprite_88
+    21300178: humano sprite_89
+    21300180: humano sprite_90
+    21300182: humano sprite_91
+    21300184: humano sprite_92
+    21300186: humano sprite_93
+    21300188: humano sprite_94
+    21300190: humano sprite_95
+    21300192: humano sprite_96
+    21300194: humano sprite_97
+    21300196: humano sprite_98
+    21300198: humano sprite_99
+    21300200: humano sprite_100
+    21300202: humano sprite_101
+    21300204: humano sprite_102
+    21300206: humano sprite_103
+    21300208: humano sprite_104
+    21300210: humano sprite_105
+    21300212: humano sprite_106
+    21300214: humano sprite_107
+    21300216: humano sprite_108
+    21300218: humano sprite_109
+    21300220: humano sprite_110
+    21300222: humano sprite_111
+    21300224: humano sprite_112
+    21300226: humano sprite_113
+    21300228: humano sprite_114
+    21300230: humano sprite_115
+    21300232: humano sprite_116
+    21300234: humano sprite_117
+    21300236: humano sprite_118
+    21300238: humano sprite_119
+    21300240: humano sprite_120
+    21300242: humano sprite_121
+    21300244: humano sprite_122
+    21300246: humano sprite_123
+    21300248: humano sprite_124
+    21300250: humano sprite_125
+    21300252: humano sprite_126
+    21300254: humano sprite_127
+    21300256: humano sprite_128
+    21300258: humano sprite_129
+    21300260: humano sprite_130
+    21300262: humano sprite_131
+    21300264: humano sprite_132
+    21300266: humano sprite_133
+    21300268: humano sprite_134
+    21300270: humano sprite_135
+    21300272: humano sprite_136
+    21300274: humano sprite_137
+    21300276: humano sprite_138
+    21300278: humano sprite_139
+    21300280: humano sprite_140
+    21300282: humano sprite_141
+    21300284: humano sprite_142
+    21300286: humano sprite_143
+    21300288: humano sprite_144
+    21300290: humano sprite_145
+    21300292: humano sprite_146
+    21300294: humano sprite_147
+    21300296: humano sprite_148
+    21300298: humano sprite_149
+    21300300: humano sprite_150
+    21300302: humano sprite_151
+    21300304: humano sprite_152
+    21300306: humano sprite_153
+    21300308: humano sprite_154
+    21300310: humano sprite_155
+    21300312: humano sprite_156
+    21300314: humano sprite_157
+    21300316: humano sprite_158
+    21300318: humano sprite_159
+    21300320: humano sprite_160
+    21300322: humano sprite_161
+    21300324: humano sprite_162
+    21300326: humano sprite_163
+    21300328: humano sprite_164
+    21300330: humano sprite_165
+    21300332: humano sprite_166
+    21300334: humano sprite_167
+    21300336: humano sprite_168
+    21300338: humano sprite_169
+    21300340: humano sprite_170
+    21300342: humano sprite_171
+    21300344: humano sprite_172
+    21300346: humano sprite_173
+    21300348: humano sprite_174
+    21300350: humano sprite_175
+    21300352: humano sprite_176
+    21300354: humano sprite_177
+    21300356: humano sprite_178
+    21300358: humano sprite_179
+    21300360: humano sprite_180
+    21300362: humano sprite_181
+    21300364: humano sprite_182
+    21300366: humano sprite_183
+    21300368: humano sprite_184
+    21300370: humano sprite_185
+    21300372: humano sprite_186
+    21300374: humano sprite_187
+    21300376: humano sprite_188
+    21300378: humano sprite_189
+    21300380: humano sprite_190
+    21300382: humano sprite_191
+    21300384: humano sprite_192
+    21300386: humano sprite_193
+    21300388: humano sprite_194
+    21300390: humano sprite_195
+    21300392: humano sprite_196
+    21300394: humano sprite_197
+    21300396: humano sprite_198
+    21300398: humano sprite_199
+    21300400: humano sprite_200
+    21300402: humano sprite_201
+    21300404: humano sprite_202
+    21300406: humano sprite_203
+    21300408: humano sprite_204
+    21300410: humano sprite_205
+    21300412: humano sprite_206
+    21300414: humano sprite_207
+    21300416: humano sprite_208
+    21300418: humano sprite_209
+    21300420: humano sprite_210
+    21300422: humano sprite_211
+    21300424: humano sprite_212
+    21300426: humano sprite_213
+    21300428: humano sprite_214
+    21300430: humano sprite_215
+    21300432: humano sprite_216
+    21300434: humano sprite_217
+    21300436: humano sprite_218
+    21300438: humano sprite_219
+    21300440: humano sprite_220
+    21300442: humano sprite_221
+    21300444: humano sprite_222
+    21300446: humano sprite_223
+    21300448: humano sprite_224
+    21300450: humano sprite_225
+    21300452: humano sprite_226
+    21300454: humano sprite_227
+    21300456: humano sprite_228
+    21300458: humano sprite_229
+    21300460: humano sprite_230
+    21300462: humano sprite_231
+    21300464: humano sprite_232
+    21300466: humano sprite_233
+    21300468: humano sprite_234
+    21300470: humano sprite_235
+    21300472: humano sprite_236
+    21300474: humano sprite_237
+    21300476: humano sprite_238
+    21300478: humano sprite_239
+    21300480: humano sprite_240
+    21300482: humano sprite_241
+    21300484: humano sprite_242
+    21300486: humano sprite_243
+    21300488: humano sprite_244
+    21300490: humano sprite_245
+    21300492: humano sprite_246
+    21300494: humano sprite_247
+    21300496: humano sprite_248
+    21300498: humano sprite_249
+    21300500: humano sprite_250
+    21300502: humano sprite_251
+    21300504: humano sprite_252
+    21300506: humano sprite_253
+    21300508: humano sprite_254
+    21300510: humano sprite_255
+    21300512: humano sprite_256
+    21300514: humano sprite_257
+    21300516: humano sprite_258
+    21300518: humano sprite_259
+    21300520: humano sprite_260
+    21300522: humano sprite_261
+    21300524: humano sprite_262
+    21300526: humano sprite_263
+    21300528: humano sprite_264
+    21300530: humano sprite_265
+    21300532: humano sprite_266
+    21300534: humano sprite_267
+    21300536: humano sprite_268
+    21300538: humano sprite_269
+    21300540: humano sprite_270
+    21300542: humano sprite_271
+    21300544: humano sprite_272
+    21300546: humano sprite_273
+    21300548: humano sprite_274
+    21300550: humano sprite_275
+    21300552: humano sprite_276
+    21300554: humano sprite_277
+    21300556: humano sprite_278
+    21300558: humano sprite_279
+    21300560: humano sprite_280
+    21300562: humano sprite_281
+    21300564: humano sprite_282
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: humano sprite_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3163
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543dc427f0cde334e90843d3ea19bbdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 3158
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b85e27c362fe7b42a42885b98eb2c19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 3163
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2f05991157769498f1edf091650f75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 3163
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de52fcc4fda3aae4d91b758736e2b25f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2398
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b48f98d573ae43479c6f2044f6d0b20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2389
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a9671e038f084cb251a145e09704b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2389
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5328ac093cff124aa92b4f6ed064fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humano sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2389
+        width: 605
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252d043fd68997e42950e2a50cc2f26d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 665a9fd8f1510b84ea78cf67ceb6550b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

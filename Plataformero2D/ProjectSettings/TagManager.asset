@@ -44,8 +44,14 @@ TagManager:
   - name: Fondo 2
     uniqueID: 3920106885
     locked: 0
+  - name: Fondos animados
+    uniqueID: 2124904607
+    locked: 0
   - name: Detalles Fondo
     uniqueID: 3965113167
+    locked: 0
+  - name: Plataformas Invertido
+    uniqueID: 2726948891
     locked: 0
   - name: Plataformas
     uniqueID: 1742679569
