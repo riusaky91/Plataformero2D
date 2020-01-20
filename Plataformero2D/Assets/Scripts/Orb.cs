@@ -32,7 +32,7 @@ public class Orb : MonoBehaviour
 		Instantiate(explosionVFXPrefab, transform.position, transform.rotation);
 		
 		//Tell audio manager to play orb collection audio
-		//AudioManager.PlayOrbCollectionAudio();
+		AudioManager.PlayOrbCollectionAudio();
 
 		//Tell the game manager that this orb was collected
 		GameManager.PlayerGrabbedOrb(this);

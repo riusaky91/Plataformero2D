@@ -150,7 +150,7 @@ public class GameManager : MonoBehaviour
 		//Tell UI Manager to show the game over text and tell the Audio Manager to play
 		//game over audio
 		UIManager.DisplayGameOverText();
-		//AudioManager.PlayWonAudio();
+		AudioManager.PlayWonAudio();
 	}
 
 	void RestartScene()
@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
 		orbs.Clear();
 
 		//Play the scene restart audio
-		//AudioManager.PlaySceneRestartAudio();
+		AudioManager.PlaySceneRestartAudio();
 
 		//Reload the current scene
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 

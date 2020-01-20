@@ -61,17 +61,17 @@ public class PlayerAnimations : MonoBehaviour
 
 	//This method is called from events in the animation itself. This keeps the footstep
 	//sounds in sync with the visuals
-	//public void StepAudio()
-	//{
-	//	//Tell the Audio Manager to play a footstep sound
-	//	AudioManager.PlayFootstepAudio();
-	//}
+	public void StepAudio()
+	{
+		//tell the audio manager to play a footstep sound
+		AudioManager.PlayFootstepAudio();
+	}
 
 	//This method is called from events in the animation itself. This keeps the footstep
 	//sounds in sync with the visuals
-	//public void CrouchStepAudio()
-	//{
-	//	//Tell the Audio Manager to play a crouching footstep sound
-	//	AudioManager.PlayCrouchFootstepAudio();
-	//}
+	public void CrouchStepAudio()
+	{
+		//Tell the Audio Manager to play a crouching footstep sound
+		AudioManager.PlayCrouchFootstepAudio();
+	}
 }

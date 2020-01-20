@@ -26,6 +26,6 @@ public class Door : MonoBehaviour
 	{
 		//Play the animation that opens the door
 		anim.SetTrigger(openParameterID);
-		//AudioManager.PlayDoorOpenAudio();
+		AudioManager.PlayDoorOpenAudio();
 	}
 }
