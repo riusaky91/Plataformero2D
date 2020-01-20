@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "PortalUnoPeque\xF1o"
+  - "PortalDosPeque\xF1o"
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Jugador
   - PostProcesing
   - Trampas
-  - 
+  - Teletransportar
   - 
   - 
   - 
