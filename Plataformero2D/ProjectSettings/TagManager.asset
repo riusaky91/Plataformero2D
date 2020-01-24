@@ -55,6 +55,9 @@ TagManager:
   - name: Plataformas Invertido
     uniqueID: 2726948891
     locked: 0
+  - name: Plataformas claro
+    uniqueID: 1611468281
+    locked: 0
   - name: Plataformas
     uniqueID: 1742679569
     locked: 0

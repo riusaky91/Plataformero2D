@@ -1099,7 +1099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4975957788022248, guid: 49a3d68524cc53848a491ff52dd104e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2508254
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4975957788022248, guid: 49a3d68524cc53848a491ff52dd104e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2627,26 +2627,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mihway_Body
       objectReference: {fileID: 0}
-    - target: {fileID: 3086864930843007219, guid: c73b4f05b0aee144cada2bb46881a5bc,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3086864930843007219, guid: c73b4f05b0aee144cada2bb46881a5bc,
-        type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3086864930843007219, guid: c73b4f05b0aee144cada2bb46881a5bc,
-        type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3086864930843007219, guid: c73b4f05b0aee144cada2bb46881a5bc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3086864930843007228, guid: c73b4f05b0aee144cada2bb46881a5bc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2655,7 +2635,7 @@ PrefabInstance:
     - target: {fileID: 3086864930843007228, guid: c73b4f05b0aee144cada2bb46881a5bc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.98199993
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 3086864930843007228, guid: c73b4f05b0aee144cada2bb46881a5bc,
         type: 3}
@@ -2770,16 +2750,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1023918817779635286, guid: e3f6d4761ec171b40bc432219d713bd3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1023918817779635286, guid: e3f6d4761ec171b40bc432219d713bd3,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3f6d4761ec171b40bc432219d713bd3, type: 3}
