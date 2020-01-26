@@ -415,9 +415,9 @@ GameObject:
   - component: {fileID: 1023918817779635281}
   - component: {fileID: 1023918817779635282}
   - component: {fileID: 1023918817779635280}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PortalUno
-  m_TagString: "PortalUnoPeque\xF1o"
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
