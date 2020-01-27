@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023918817345307215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.12, y: -1.71, z: -1.3280462}
+  m_LocalPosition: {x: 23.44, y: -1.71, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023918817581120751}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.43, y: -1.72, z: -1.3280462}
+  m_LocalPosition: {x: 11.58, y: -1.72, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
@@ -474,9 +474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -3
+  posicionX: -1.5
   portalHermanoCaminando: {fileID: 1023918817345307215}
-  portalHermanoAgachado: {fileID: 1023918817581120751}
+  portalHermanoAgachado: {fileID: 0}
   estaAgachadao: 0
 --- !u!114 &1023918817779635280
 MonoBehaviour:
