@@ -6,6 +6,7 @@ TagManager:
   tags:
   - "PortalUnoPeque\xF1o"
   - "PortalDosPeque\xF1o"
+  - camara1
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Trampas
   - Teletransportar
   - Tips
-  - 
+  - Muerte
   - 
   - 
   - 

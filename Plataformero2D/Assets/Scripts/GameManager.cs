@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
 	bool isGameOver;							//Is the game currently over?
 
 
+    GameObject mihway;
+    Estado estado;
+
 	void Awake()
 	{
 		//If a Game Manager exists and this isn't it...
@@ -37,8 +40,19 @@ public class GameManager : MonoBehaviour
 		//Set this as the current game manager
 		current = this;
 
-		//Create out collection to hold the orbs
-		orbs = new List<Orb>();
+        //Referencia al estado de guardado del jugador
+        mihway = GameObject.Find("Mihway");
+        estado = mihway.GetComponent<Estado>();
+
+        //Create out collection to hold the orbs
+        orbs = new List<Orb>();
+
+
+        //Si se oprime el boton continuar
+        if (EmpezarPartida.continuar)
+        {
+            RestartScene();
+        }
 
 		//Persis this object between scene reloads
 		DontDestroyOnLoad(gameObject);
@@ -161,7 +175,14 @@ public class GameManager : MonoBehaviour
 		//Play the scene restart audio
 		AudioManager.PlaySceneRestartAudio();
 
-		//Reload the current scene
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+        //Reload the current scene
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+
+        //Cargo el estado del jugador
+        GestorDeEstado.Cargar(estado);
+
+        mihway.transform.position = estado.posicion;
+        mihway.SetActive(true);
+
 	}
 }

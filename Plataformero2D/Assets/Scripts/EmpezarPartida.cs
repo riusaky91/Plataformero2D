@@ -10,8 +10,7 @@ public class EmpezarPartida : MonoBehaviour
 
     
 
-    public static string nombre;//variable estatica que va ser accedida desde cualquier componente llamando a su clase
-
+    public static bool continuar;//variable estatica que valida si se oprimio continuar
 
     // Update is called once per frame
     void Update()
@@ -20,14 +19,20 @@ public class EmpezarPartida : MonoBehaviour
         {
             //Vidas.vidas = 3;//reinicio el valor de vidas
             //EmpezarPartida.nombre = string.Empty;//reinicio el nombre
-            
+           
             SceneManager.LoadScene("Nivel01");// cambia laa escena nivel01
+
+            
         }
  
     }
 
+    public void Continuar()
+    {
+        continuar = true;
+        SceneManager.LoadScene("Nivel01");// cambia laa escena nivel01
+    }
 
-    
 
     public void Creditos()
     {
