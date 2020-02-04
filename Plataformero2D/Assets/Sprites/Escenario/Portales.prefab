@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 978465765}
   - component: {fileID: 978465764}
   m_Layer: 0
-  m_Name: Portal Cuatro
+  m_Name: Caverna D 1-2
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978465762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.62, y: -11.75, z: -1.3280462}
+  m_LocalPosition: {x: 61.37, y: 1.33, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -3
+  posicionX: 12
   portalHermanoCaminando: {fileID: 0}
   portalHermanoAgachado: {fileID: 1023918817581120751}
   estaAgachadao: 0
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1023918817345307211}
   - component: {fileID: 1023918817345307209}
   m_Layer: 0
-  m_Name: PortalDos
+  m_Name: Caverna B 1-2
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023918817345307215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.44, y: -1.71, z: -1.3280462}
+  m_LocalPosition: {x: 148.19, y: -17.38, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 1023918817581120744}
   - component: {fileID: 1023918817581120745}
   m_Layer: 0
-  m_Name: PortalTres
+  m_Name: Caverna C 1-2
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023918817581120751}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.58, y: -1.72, z: -1.3280462}
+  m_LocalPosition: {x: 94.95, y: -22.79, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 1023918817779635282}
   - component: {fileID: 1023918817779635280}
   m_Layer: 9
-  m_Name: PortalUno
+  m_Name: Caverna A 1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,7 +430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023918817779635286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.21, y: -11.37, z: -1.3280462}
+  m_LocalPosition: {x: 30.13, y: 1.44, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1023918817582140127}
