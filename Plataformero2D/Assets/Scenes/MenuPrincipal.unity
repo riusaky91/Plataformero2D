@@ -167,11 +167,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 73224735436f6934f92991ff637121cc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -434,6 +434,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1784241466, guid: 8a77de7fd29597240ad55993e16df8d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 361213700}
+    - target: {fileID: 2476073521029097824, guid: 8a77de7fd29597240ad55993e16df8d6,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476073521029097825, guid: 8a77de7fd29597240ad55993e16df8d6,
+        type: 3}
+      propertyPath: m_ScaleFactor
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2476073521029097827, guid: 8a77de7fd29597240ad55993e16df8d6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -549,5 +563,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 361213700}
+    - target: {fileID: 2476073522513340171, guid: 8a77de7fd29597240ad55993e16df8d6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476073522513340171, guid: 8a77de7fd29597240ad55993e16df8d6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476073522513340171, guid: 8a77de7fd29597240ad55993e16df8d6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 950
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a77de7fd29597240ad55993e16df8d6, type: 3}

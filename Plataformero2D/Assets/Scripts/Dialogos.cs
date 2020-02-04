@@ -21,9 +21,20 @@ public class Dialogos : MonoBehaviour
 
     public Rigidbody2D rb;//referencia al rigidbody del personaje
 
+    SpriteRenderer sr;//refenecia a la imagen
+
+    private void Awake()
+    {
+        sr = GetComponentInParent<SpriteRenderer>();
+    }
+
+
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         visualizador.text = aviso;
+        sr.enabled = true;
         enColider = true;
 
     }
@@ -34,9 +45,9 @@ public class Dialogos : MonoBehaviour
         if(visualizador.text == aviso)
         {
             visualizador.text = "";
-
         }
-
+        
+        sr.enabled = false;
         enColider = false;
         index = 0;
     }
@@ -53,7 +64,7 @@ public class Dialogos : MonoBehaviour
             visualizador.text = "";
             StartCoroutine(Teclear());//Metodo que muestra el texto 
             enColider = false;
-            rb.bodyType = RigidbodyType2D.Static;//Mientras el dialogo se presente el jugador quedara estatico
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;//Mientras el dialogo se presente el jugador quedara estatico
 
         }
     }
@@ -82,11 +93,14 @@ public class Dialogos : MonoBehaviour
             visualizador.text = "";
             StartCoroutine(Teclear());
         }
-        else// si no se borrara el texto y se deshabilitara el boton de continuar y se volvera a dinamico al jugador
+        else// si no se borrara el texto y se deshabilitara el boton de continuar y se dejeara mover al jugador
         {
             visualizador.text = "";
+            sr.enabled = false;
             botonContinuar.SetActive(false);
-            rb.bodyType = RigidbodyType2D.Dynamic;
+            rb.constraints = RigidbodyConstraints2D.None;//Activo los ejes x,y z
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;//congelo el z
+            index = 0;
         }
     }
 
