@@ -3554,10 +3554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1545193660, guid: 00c5c88723431154a9954de97b70c6c0, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: dea6ad735a4d80442ab96fc8245ac6a4, type: 2}
     - target: {fileID: 4434823128662557970, guid: 00c5c88723431154a9954de97b70c6c0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4099,91 +4095,6 @@ PrefabInstance:
       propertyPath: m_TileSpriteArray.Array.data[16].m_Data
       value: 
       objectReference: {fileID: 1672022645}
-    - target: {fileID: 3770108751710179179, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3770108751710179179, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[2].first.x
-      value: 73
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[2].first.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[2].second.m_TileFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[2].second.m_ColliderType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_TileAssetArray.Array.data[0].m_RefCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_TileSpriteArray.Array.data[0].m_RefCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_TileMatrixArray.Array.data[0].m_RefCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_TileColorArray.Array.data[0].m_RefCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 91
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[3].first.x
-      value: 81
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[3].first.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[3].second.m_TileFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6211781835066493638, guid: 5bb468f968808ab49ac281705edf6a9b,
-        type: 3}
-      propertyPath: m_Tiles.Array.data[3].second.m_ColliderType
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6211781835097193953, guid: 5bb468f968808ab49ac281705edf6a9b,
         type: 3}
       propertyPath: m_LocalPosition.x
