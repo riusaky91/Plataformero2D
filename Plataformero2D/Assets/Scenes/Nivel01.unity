@@ -4099,6 +4099,16 @@ PrefabInstance:
       propertyPath: m_TileSpriteArray.Array.data[16].m_Data
       value: 
       objectReference: {fileID: 1672022645}
+    - target: {fileID: 3770108751710179179, guid: 5bb468f968808ab49ac281705edf6a9b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3770108751710179179, guid: 5bb468f968808ab49ac281705edf6a9b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6211781835097193953, guid: 5bb468f968808ab49ac281705edf6a9b,
         type: 3}
       propertyPath: m_LocalPosition.x
