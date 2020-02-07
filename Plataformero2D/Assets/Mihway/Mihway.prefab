@@ -723,27 +723,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 3086864931523751971}
-  m_BoneTransforms:
-  - {fileID: 3086864931523751971}
-  - {fileID: 3086864931112719034}
-  - {fileID: 3086864929973689878}
-  - {fileID: 3086864930593882753}
-  - {fileID: 3086864930630774148}
-  - {fileID: 3086864931505929972}
-  - {fileID: 3086864930784548764}
-  - {fileID: 3086864931490421513}
-  - {fileID: 3086864931899149020}
-  - {fileID: 3086864931315280317}
-  - {fileID: 3086864931201474488}
-  - {fileID: 3086864930032524760}
-  - {fileID: 3086864931795027170}
-  - {fileID: 3086864930326607881}
-  - {fileID: 3086864930132023012}
-  - {fileID: 3086864931766386991}
-  - {fileID: 3086864930325788750}
+  m_BoneTransforms: []
   m_Bounds:
-    m_Center: {x: 2.4927921, y: 0.39219213, z: 0}
-    m_Extent: {x: 6.3603554, y: 4.1579695, z: 0}
+    m_Center: {x: 1.6388142, y: 1.1757295, z: 0}
+    m_Extent: {x: 4.9985223, y: 3.1762147, z: 0}
 --- !u!114 &2326535471187136337
 MonoBehaviour:
   m_ObjectHideFlags: 0
