@@ -9,6 +9,9 @@ public class AdministrarCamaras : MonoBehaviour
     public GameObject camaraVirtual;//referencia a la camara del cuarto
 
 
+    static bool salio;// confirmar si salio de la camara
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,12 +19,24 @@ public class AdministrarCamaras : MonoBehaviour
 
         BoxCollider2D muroNivel = GetComponent<BoxCollider2D>();// Referencia al box Collider del objeto
 
-        if (collision.CompareTag("Player")&& !collision.isTrigger)//Si el jugador entra y hay una colision, y el istrigger del jugador no esta activo
+        PlayerMovement movimientoJugador = collision.GetComponent<PlayerMovement>();//Tomo el componente player movement del jugador
+
+        if (collision.CompareTag("Player")&& !collision.isTrigger )//Si el jugador entra y hay una colision, y el istrigger del jugador no esta activo
         {
             camaraVirtual.SetActive(true);
             Debug.Log("Entrar camara");
 
-            if (!camaraVirtual.CompareTag("camara1"))//Si la camara es diferente a la 1
+            if (GameManager.reseteo)//si se reseteo
+            {
+                if (muroNivel != null)//si el nivel tiene instancia del muro lo activa
+                {
+                    muroNivel.enabled = true;
+                }
+               
+                GameManager.reseteo = false;
+            }
+
+            if (!camaraVirtual.CompareTag("camara1") && salio)//Si la camara es diferente a la 1 y el jugador salio de un collider
             {
                 estado.posicion = collision.transform.position;//Guardo la poscion de mihway en la variable posicion del estado
                 GestorDeEstado.Guardar(estado);//guardo
@@ -30,6 +45,8 @@ public class AdministrarCamaras : MonoBehaviour
                 {
                     muroNivel.enabled = true;
                 }
+
+                salio = false;
             }
 
 
@@ -45,8 +62,8 @@ public class AdministrarCamaras : MonoBehaviour
             
             camaraVirtual.SetActive(false);
             Debug.Log("Salir camara");
-            
-            
+
+            salio = true;
         }
     }
 

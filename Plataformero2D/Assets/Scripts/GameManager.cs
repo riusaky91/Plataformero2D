@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     GameObject mihway;
     Estado estado;
 
+    public static bool reseteo;//verifica si la escena se reseteo
+
 	void Awake()
 	{
 		//If a Game Manager exists and this isn't it...
@@ -181,8 +183,9 @@ public class GameManager : MonoBehaviour
         //Cargo el estado del jugador
         GestorDeEstado.Cargar(estado);
 
-        mihway.transform.position = estado.posicion;
+        mihway.transform.position = estado.posicion + new Vector2(3,0);
         mihway.SetActive(true);
 
+        reseteo = true;
 	}
 }
