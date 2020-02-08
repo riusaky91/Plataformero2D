@@ -15,38 +15,47 @@ public class AdministrarCamaras : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Estado estado = collision.GetComponent<Estado>();//Referencia el stado del jugador
+        Estado estado = collision.GetComponent<Estado>();//Referencia el estado del jugador
 
         BoxCollider2D muroNivel = GetComponent<BoxCollider2D>();// Referencia al box Collider del objeto
 
         PlayerMovement movimientoJugador = collision.GetComponent<PlayerMovement>();//Tomo el componente player movement del jugador
 
-        if (collision.CompareTag("Player")&& !collision.isTrigger )//Si el jugador entra y hay una colision, y el istrigger del jugador no esta activo
+        camaraVirtual.SetActive(true);// activo la camara actual
+
+
+        //Si el objeto que colisiona es el jugador
+        if (collision.CompareTag("Player") )
         {
-            camaraVirtual.SetActive(true);
+            
             Debug.Log("Entrar camara");
 
-            if (GameManager.reseteo)//si se reseteo
+
+            //si se reinicio el juego
+            if (GameManager.reseteo)
             {
-                if (muroNivel != null)//si el nivel tiene instancia del muro lo activa
+                //si hay un boxcolider en el objeto {se activa el muro}
+                if (muroNivel != null)
                 {
                     muroNivel.enabled = true;
                 }
                
-                GameManager.reseteo = false;
+                GameManager.reseteo = false;//cambio el valor de la variable por que ya se ha reiniciado al jugador
             }
 
-            if (!camaraVirtual.CompareTag("camara1") && salio)//Si la camara es diferente a la 1 y el jugador salio de un collider
+            //Si la camara es diferente a la 1 y el jugador ya salio de una camara anterior
+            if (!camaraVirtual.CompareTag("camara1") && salio)
             {
-                estado.posicion = collision.transform.position;//Guardo la poscion de mihway en la variable posicion del estado
-                GestorDeEstado.Guardar(estado);//guardo
+                estado.posicion = collision.transform.position;//Guardo la poscion de el jugador en la variable posicion del estado
+                GestorDeEstado.Guardar(estado);//guardo estado
 
-                if(muroNivel != null)
+                //si hay un boxcolider en el objeto {se activa el muro}
+                if (muroNivel != null)
                 {
                     muroNivel.enabled = true;
                 }
 
-                salio = false;
+                salio = false;//cambio el valor de salio ya que se entro a una nueva camara
             }
 
 
@@ -55,15 +64,16 @@ public class AdministrarCamaras : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        string bodyType = collision.attachedRigidbody.bodyType.ToString();
+        string bodyType = collision.attachedRigidbody.bodyType.ToString();//referencio el bodytype del objeto que colisiono (jugador) con la camara
 
-        if (collision.CompareTag("Player") && !collision.isTrigger && bodyType == "Dynamic" )
+        //Si el objeto que colisiono es el jugador y su boditype es dinamico
+        if (collision.CompareTag("Player") && bodyType == "Dynamic" )
         {
             
-            camaraVirtual.SetActive(false);
+            camaraVirtual.SetActive(false);//desactivo la camara referenciada
             Debug.Log("Salir camara");
 
-            salio = true;
+            salio = true;//cambio el valor a verdadero ya que se salio de la camara
         }
     }
 
