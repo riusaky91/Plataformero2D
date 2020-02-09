@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ambientClip: {fileID: 8300000, guid: 91192d9f301714fadbb007469cab0213, type: 3}
-  musicClip: {fileID: 8300000, guid: 0e5e5220b21cbb24cb45445289715171, type: 3}
+  musicClip: {fileID: 8300000, guid: e5a5e4650963b8141a06e6342184b2d0, type: 3}
   levelStingClip: {fileID: 8300000, guid: da5a2d5f64bba4bed8b111bc90321579, type: 3}
   deathStingClip: {fileID: 8300000, guid: 60b51a24836264977999d094348513a3, type: 3}
   winStingClip: {fileID: 8300000, guid: 8fb46ffce8c8a474d8ccfa66129389d3, type: 3}

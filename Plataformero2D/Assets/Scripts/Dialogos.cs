@@ -10,7 +10,9 @@ public class Dialogos : MonoBehaviour
     public string aviso;
 
     public string[] oraciones; //Arreglo de cadenas que contendra las oraciones en los dialogos
+
     private int index;//indice para indicar la posicion del arreglo
+
     public float velocidadTecleo;//Velociada conla cual se ejecutara cada letra
 
     public GameObject botonContinuar;//Objeto para que la corrutina termine y no genere oraciones aleatorios
@@ -23,9 +25,10 @@ public class Dialogos : MonoBehaviour
 
     SpriteRenderer sr;//refenecia a la imagen
 
+
     private void Awake()
     {
-        sr = GetComponentInParent<SpriteRenderer>();
+        sr = GetComponentInParent<SpriteRenderer>();//referencia al Sprite renderer de el dialogo    
     }
 
 
@@ -33,44 +36,47 @@ public class Dialogos : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        visualizador.text = aviso;
-        sr.enabled = true;
-        enColider = true;
+        visualizador.text = aviso;//escribi el texto aviso en el Textmesh
+        AudioManager.PlayDialogoAudio();//genero el audio del dialogo
+        sr.enabled = true;//habilito el sprite
+        enColider = true;//habilito el validador para saber que hay collision
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-
+        //Si hay un aviso ejecutandose lo limpio
         if(visualizador.text == aviso)
         {
             visualizador.text = "";
         }
         
-        sr.enabled = false;
-        enColider = false;
-        index = 0;
+        sr.enabled = false;//deshabilito el sprite
+        enColider = false;//deshabilito el validador de collision
+        index = 0;//la posiciono incial del string pasa a 0
     }
 
     private void Update()
     {
-        if(visualizador.text == oraciones[index])//Si hay una oracion seguira activo el boton continuar
+        //Si hay una oracion seguira activo el boton continuar
+        if (visualizador.text == oraciones[index])
         {
             botonContinuar.SetActive(true);
         }
 
+        //Si se oprimio el boton agachar y hay una colission (vacio el texto, muestro el texto letra por letra, deshabilito el validador de collision, detengo la posicion del jugador;
         if (Input.GetButtonDown("Crouch") && enColider)
         {
             visualizador.text = "";
             StartCoroutine(Teclear());//Metodo que muestra el texto 
             enColider = false;
-            rb.constraints = RigidbodyConstraints2D.FreezePosition;//Mientras el dialogo se presente el jugador quedara estatico
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;//Mientras el dialogo se presente el jugador quedara estatico (Freeze position x,y,Z)
 
         }
     }
 
-
-    IEnumerator Teclear()//corrutina para ejecutar un metodo en un tiempo determinado
+    //corrutina para ejecutar un metodo en un tiempo determinado
+    IEnumerator Teclear()
     {
         foreach(char letra in oraciones[index].ToCharArray())
         {
@@ -80,7 +86,7 @@ public class Dialogos : MonoBehaviour
     }
 
 
-    //Metodo que añde la funcionalidad al boton de continuar del texto
+    //Metodo que añade la funcionalidad al boton de continuar del texto
 
     public void siguienteOracion()
     {

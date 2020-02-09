@@ -1,4 +1,4 @@
-﻿// This script is a Manager that controls all of the audio for the project. All audio
+// This script is a Manager that controls all of the audio for the project. All audio
 // commands are issued through the static methods of this class. Additionally, this 
 // class creates AudioSource "channels" at runtime and manages them
 
@@ -199,7 +199,19 @@ public class AudioManager : MonoBehaviour
 		current.stingSource.PlayDelayed(1f);
 	}
 
-	public static void PlayWonAudio()
+
+    public static void PlayDialogoAudio()
+    {
+        //If there is no current AudioManager, exit
+        if (current == null)
+            return;
+
+        //Set the door open sting clip and tell the source to play
+        current.stingSource.clip = current.deathClip;
+        current.stingSource.Play();
+    }
+
+    public static void PlayWonAudio()
     {
 		//If there is no current AudioManager, exit
 		if (current == null)
