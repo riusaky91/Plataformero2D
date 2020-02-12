@@ -31,7 +31,7 @@ public class TeletransportarJugador : MonoBehaviour
             segundoDestino = portalHermanoAgachado.transform;
         }
 
-        estadoJugador =  GameObject.Find("Mihway").GetComponent<PlayerMovement>();
+        estadoJugador =  GameObject.Find("Mahway").GetComponent<PlayerMovement>();
 
     }
 
