@@ -68,6 +68,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 150, y: -22, z: 0}
+    second:
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: 176, y: -11, z: 0}
     second:
       m_TileIndex: 0
@@ -77,10 +86,28 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 150, y: -9, z: 0}
+    second:
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: 223, y: -1, z: 0}
     second:
       m_TileIndex: 0
       m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 150, y: 0, z: 0}
+    second:
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -112,6 +139,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 37ea675dc9d24eb41adc786b9504ec4f, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 0d4c2b0048fe8c249a286a18f810b606, type: 2}
+  - m_RefCount: 3
+    m_Data: {fileID: 11400000, guid: acb32bbbd224bbb4fabe6e332eb5378e, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: c41ab7a1472808a4b9cd98cf0ce930bf, type: 3}
@@ -119,8 +148,10 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: f253fb88fa96df047bbf5ce303546d8a, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: 92be29dd41709d445afa43598ae3f755, type: 3}
+  - m_RefCount: 3
+    m_Data: {fileID: 21300000, guid: 894458fb473566e49a9269e9003466bb, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data:
       e00: 1
       e01: 0
@@ -139,7 +170,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 7
+  - m_RefCount: 10
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 0.6784314}
@@ -4857,24 +4888,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 222, y: 2, z: 0}
-    second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 25
+  - m_RefCount: 24
     m_Data: {fileID: 11400000, guid: 897f2f6d72e5da64d9fe6890c786c879, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 25
+  - m_RefCount: 24
     m_Data: {fileID: 21300000, guid: 1ee3f48f7f3ffd347b6288c1a154b409, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 25
+  - m_RefCount: 24
     m_Data:
       e00: 1
       e01: 0
@@ -4893,7 +4915,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 25
+  - m_RefCount: 24
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 0.7254902, g: 0.7019608, b: 0.7019608, a: 1}
@@ -5020,24 +5042,24 @@ CompositeCollider2D:
     m_ColliderPaths:
     - - X: 1499640064
         Y: 9640000
-      - X: 2240079872
+      - X: 2210080000
         Y: 9640000
-      - X: 2240359936
+      - X: 2210360064
         Y: 9840000
-      - X: 2240359936
+      - X: 2210360064
         Y: 22160000
-      - X: 2240320000
+      - X: 2210319872
         Y: 22200000
       - X: 1499640064
         Y: 22200000
   m_CompositePaths:
     m_Paths:
-    - - {x: 224.036, y: 0.984}
-      - {x: 224.036, y: 2.216}
-      - {x: 224.032, y: 2.22}
+    - - {x: 221.03601, y: 0.984}
+      - {x: 221.03601, y: 2.216}
+      - {x: 221.03198, y: 2.22}
       - {x: 149.964, y: 2.22}
       - {x: 149.964, y: 0.964}
-      - {x: 224.008, y: 0.964}
+      - {x: 221.008, y: 0.964}
   m_VertexDistance: 0.0005
 --- !u!1 &7196113014961167612
 GameObject:
