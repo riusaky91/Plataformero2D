@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4312857681196125528}
   - component: {fileID: 4513473325294723498}
   m_Layer: 0
-  m_Name: Caverna E 1-5
+  m_Name: Caverna E 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075989674470883844}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 213.77, y: 80.34, z: -1.3280462}
+  m_LocalPosition: {x: 213.63, y: 80.8, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -71,9 +71,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -1
-  portalHermanoCaminando: {fileID: 2063265130308451301}
-  portalHermanoAgachado: {fileID: 1339680190872848968}
+  posicionX: 1.5
+  portalHermanoCaminando: {fileID: 7706983772921721739}
+  portalHermanoAgachado: {fileID: 2063265131078315516}
   estaAgachadao: 0
 --- !u!114 &4513473325294723498
 MonoBehaviour:
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1339680190872848975}
   - component: {fileID: 1339680190872848974}
   m_Layer: 0
-  m_Name: Caverna D 1-5
+  m_Name: Caverna D 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339680190872848968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 208.8, y: 62.46, z: -1.3280462}
+  m_LocalPosition: {x: 208.8, y: 62.5, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -194,9 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: 1
-  portalHermanoCaminando: {fileID: 2063265131078315516}
-  portalHermanoAgachado: {fileID: 2063265130066085189}
+  posicionX: 1.5
+  portalHermanoCaminando: {fileID: 2063265130066085189}
+  portalHermanoAgachado: {fileID: 2063265131078315516}
   estaAgachadao: 0
 --- !u!114 &1339680190872848974
 MonoBehaviour:
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 2063265130066085186}
   - component: {fileID: 2063265130066085187}
   m_Layer: 0
-  m_Name: Caverna C 1-5
+  m_Name: Caverna C 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063265130066085189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.59, y: 53.394, z: -1.3280462}
+  m_LocalPosition: {x: 171.58, y: 50.75, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -292,7 +292,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.71418095, y: 0.06999999}
+  m_Offset: {x: 0.3942957, y: 0.06999999}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -303,7 +303,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16163826, y: 0.5}
+  m_Size: {x: 0.80140877, y: 0.5}
   m_EdgeRadius: 0
 --- !u!114 &2063265130066085186
 MonoBehaviour:
@@ -317,9 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -1.5
-  portalHermanoCaminando: {fileID: 0}
-  portalHermanoAgachado: {fileID: 1075989674470883844}
+  posicionX: -1.2
+  portalHermanoCaminando: {fileID: 1339680190872848968}
+  portalHermanoAgachado: {fileID: 5602346092894362588}
   estaAgachadao: 0
 --- !u!114 &2063265130066085187
 MonoBehaviour:
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 2063265130308451297}
   - component: {fileID: 2063265130308451299}
   m_Layer: 0
-  m_Name: Caverna B 1-5
+  m_Name: Caverna B 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063265130308451301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.37, y: 53.03, z: -1.3280462}
+  m_LocalPosition: {x: 190.56, y: 53, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -1
+  posicionX: 1
   portalHermanoCaminando: {fileID: 0}
   portalHermanoAgachado: {fileID: 0}
   estaAgachadao: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 2063265131078315512}
   - component: {fileID: 2063265131078315514}
   m_Layer: 9
-  m_Name: Caverna A 1-5
+  m_Name: Caverna A 1-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063265131078315516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 171.56, y: 50.46, z: -1.3280462}
+  m_LocalPosition: {x: 190.72, y: 53.3, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -576,7 +576,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.34, y: 0.07}
+  m_Offset: {x: 0.58390903, y: 0.06999999}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -587,7 +587,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.91, y: 0.5}
+  m_Size: {x: 0.42218208, y: 0.5}
   m_EdgeRadius: 0
 --- !u!114 &2063265131078315512
 MonoBehaviour:
@@ -602,8 +602,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posicionX: -1.5
-  portalHermanoCaminando: {fileID: 1339680190872848968}
-  portalHermanoAgachado: {fileID: 5602346092894362588}
+  portalHermanoCaminando: {fileID: 0}
+  portalHermanoAgachado: {fileID: 1075989674470883844}
   estaAgachadao: 0
 --- !u!114 &2063265131078315514
 MonoBehaviour:
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 1890180356395670006}
   - component: {fileID: 3461895787380475803}
   m_Layer: 0
-  m_Name: Caverna F 1-5
+  m_Name: Caverna F 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -680,7 +680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5602346092894362588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 193.89, y: 83.43, z: -1.3280462}
+  m_LocalPosition: {x: 193.68, y: 83.58, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -725,8 +725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posicionX: -2
-  portalHermanoCaminando: {fileID: 0}
-  portalHermanoAgachado: {fileID: 6923241838537523661}
+  portalHermanoCaminando: {fileID: 6923241838537523661}
+  portalHermanoAgachado: {fileID: 0}
   estaAgachadao: 0
 --- !u!114 &3461895787380475803
 MonoBehaviour:
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 2364567676497789972}
   - component: {fileID: 5650636899534911922}
   m_Layer: 0
-  m_Name: Caverna H 1-5
+  m_Name: Caverna H 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -803,7 +803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6923241838537523661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 161.97, y: 74.21, z: -1.3280462}
+  m_LocalPosition: {x: 161.72, y: 74.33, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
@@ -847,9 +847,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5ee2306c66f74594def4e33122730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionX: -1
-  portalHermanoCaminando: {fileID: 0}
-  portalHermanoAgachado: {fileID: 1075989674470883844}
+  posicionX: 1
+  portalHermanoCaminando: {fileID: 2063265131078315516}
+  portalHermanoAgachado: {fileID: 0}
   estaAgachadao: 0
 --- !u!114 &5650636899534911922
 MonoBehaviour:
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 8975037190173470097}
   - component: {fileID: 4276548158146236696}
   m_Layer: 0
-  m_Name: Caverna G 1-5
+  m_Name: Caverna G 1-6
   m_TagString: "PortalDosPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -926,7 +926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7706983772921721739}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 176.646, y: 81.35, z: -1.3280462}
+  m_LocalPosition: {x: 176.7, y: 82.08, z: -1.3280462}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2063265130067194741}
