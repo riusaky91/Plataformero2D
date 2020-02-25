@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 		current = this;
 
         //Referencia al estado de guardado del jugador
-        mihway = GameObject.Find("Mihway");
+        mihway = GameObject.Find("Mahway");
         estado = mihway.GetComponent<Estado>();
 
         //Create out collection to hold the orbs
